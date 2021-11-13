@@ -19,8 +19,8 @@ MiprimeraApp.Dominio/obj
 MiprimeraApp.Consola/bin
 MiprimeraApp.Consola/obj
 *.cache
-*.dll
-*.pdb
+*.dll 
+*.pdb 
 *.cache
 *.rsuser
 *.suo
