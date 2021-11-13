@@ -12,7 +12,12 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MiprimeraApp.Dominio\MiprimeraApp.Dominio.csproj" />
+    <ProjectReference Include="..\MiprimeraApp.Persistencia\MiprimeraApp.Persistencia.csproj" />
+  </ItemGroup>
+
 </Project>
 
 <!--
-  --version 5.0.10-->
+  version 5.0.10-->
