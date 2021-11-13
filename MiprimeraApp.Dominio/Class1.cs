@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MipriemraApp.Dominio
+namespace MiprimeraApp.Dominio
 {
     public class Class1
     {

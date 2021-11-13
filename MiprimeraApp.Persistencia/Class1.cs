@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MipriemraApp.Persistencia
+namespace MiprimeraApp.Persistencia
 {
     public class Class1
     {
