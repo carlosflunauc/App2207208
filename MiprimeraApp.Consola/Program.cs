@@ -14,20 +14,20 @@ namespace MiprimeraApp.Consola
         {
             Console.WriteLine("Hello World!");
             //AddPaciente();
-            //BuscarPaciente(1);
-            //EliminarPaciente(2); ok
+            //BuscarPaciente(2);
+            //EliminarPaciente(1); 
             //MostrarPacientes();
-            //AddMedico(); ok
-            //AsignarMedico(); ok
+            //AddMedico();
+            //AsignarMedico();
             //AddSignoVital(); 
-            //AsignarSignoVital(); ok
+            AsignarSignoVital();
             //AsignarPaciente(); ok 
         }
   private static void AddPaciente()
         {
             var paciente = new Paciente
             {
-                Nombre = "Juanito",
+                Nombre = "Pepito",
                 Apellidos = "Perez",
                 NumeroTelefono = "3001645",
                 Genero = Genero.Masculino,
@@ -40,7 +40,7 @@ namespace MiprimeraApp.Consola
         private static void BuscarPaciente(int idPaciente)
         {
             var paciente = _repoPaciente.GetPaciente(idPaciente);
-            Console.WriteLine(paciente.Medico.Nombre);
+            Console.WriteLine(paciente.Nombre+" "+paciente.Apellidos);
         }
         private static void EliminarPaciente(int idPaciente)
         {
@@ -72,7 +72,7 @@ namespace MiprimeraApp.Consola
 
         private static void AsignarMedico()
         {
-            var medico = _repoPaciente.AsignarMedico(3, 2);
+            var medico = _repoPaciente.AsignarMedico(3, 4);
             Console.WriteLine(medico.Nombre + " " + medico.Apellidos);
         }
 
@@ -80,8 +80,8 @@ namespace MiprimeraApp.Consola
         {
             var signoVital = new SignoVital
             {
-                FechaHora = new DateTime(2021, 10, 01),
-                Valor = 36.3F,
+                FechaHora = new DateTime(2021, 11, 12),
+                Valor = 38.3F,
                 Signo = TipoSigno.TemperaturaCorporal
             };
             _repoSignoVital.AddSignoVital(signoVital);
@@ -89,7 +89,7 @@ namespace MiprimeraApp.Consola
 
         private static void AsignarSignoVital()
         {
-            var signoVital = _repoPaciente.AsignarSignoVital(1, 1);
+            var signoVital = _repoPaciente.AsignarSignoVital(2, 1);
             Console.WriteLine(signoVital.Signo + " " + signoVital.Valor);
         }
 
