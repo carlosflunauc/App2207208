@@ -1,8 +1,8 @@
 namespace MiprimeraApp.Dominio
 {
     /// <summary>
-    /// Lista de Generos
-    /// </symmary>
+    /// Lista de generos
+    /// </summary>
     public enum Genero
     {
         Masculino,
@@ -10,7 +10,7 @@ namespace MiprimeraApp.Dominio
         Bisexual,
         Intersexual,
         Pansexual,
-        Transexual 
-        
+        Transexual
+
     }
 }

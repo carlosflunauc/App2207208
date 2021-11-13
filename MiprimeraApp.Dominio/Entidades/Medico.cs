@@ -1,12 +1,15 @@
 namespace MiprimeraApp.Dominio
 {
-    /// <summary> Class <c> Medico </c>
-    /// Modela un medico del equipo
-    /// </summary>
+    /// <summary>Class <c>Medico</c>
+    /// Modela un Medico del equipo medico de apoyo 
+    /// </summary>   
     public class Medico : Persona
     {
-        public string Especialidad {get; set;}
-        public string Codigo {get; set;}
-        public string RegistroRethus {get; set;}
+        /// Nombre de la especialidad medica del Médico  
+        public string Especialidad { get; set; }
+        /// Código único del médico
+        public string Codigo { get; set; }
+         /// Registro Unico Nacional del Talento Humano 
+        public string RegistroRethus { get; set; }
     }
 }
