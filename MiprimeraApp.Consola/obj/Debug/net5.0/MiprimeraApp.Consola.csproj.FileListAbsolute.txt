@@ -1,0 +1,16 @@
+C:\Users\USUARIO\Documents\SENA\FORMACION 2021\4TRIMESTRE\MiprimeraApp\MiprimeraApp.Consola\bin\Debug\net5.0\MiprimeraApp.Consola.exe
+C:\Users\USUARIO\Documents\SENA\FORMACION 2021\4TRIMESTRE\MiprimeraApp\MiprimeraApp.Consola\bin\Debug\net5.0\MiprimeraApp.Consola.deps.json
+C:\Users\USUARIO\Documents\SENA\FORMACION 2021\4TRIMESTRE\MiprimeraApp\MiprimeraApp.Consola\bin\Debug\net5.0\MiprimeraApp.Consola.runtimeconfig.json
+C:\Users\USUARIO\Documents\SENA\FORMACION 2021\4TRIMESTRE\MiprimeraApp\MiprimeraApp.Consola\bin\Debug\net5.0\MiprimeraApp.Consola.runtimeconfig.dev.json
+C:\Users\USUARIO\Documents\SENA\FORMACION 2021\4TRIMESTRE\MiprimeraApp\MiprimeraApp.Consola\bin\Debug\net5.0\MiprimeraApp.Consola.dll
+C:\Users\USUARIO\Documents\SENA\FORMACION 2021\4TRIMESTRE\MiprimeraApp\MiprimeraApp.Consola\bin\Debug\net5.0\ref\MiprimeraApp.Consola.dll
+C:\Users\USUARIO\Documents\SENA\FORMACION 2021\4TRIMESTRE\MiprimeraApp\MiprimeraApp.Consola\bin\Debug\net5.0\MiprimeraApp.Consola.pdb
+C:\Users\USUARIO\Documents\SENA\FORMACION 2021\4TRIMESTRE\MiprimeraApp\MiprimeraApp.Consola\obj\Debug\net5.0\MiprimeraApp.Consola.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Documents\SENA\FORMACION 2021\4TRIMESTRE\MiprimeraApp\MiprimeraApp.Consola\obj\Debug\net5.0\MiprimeraApp.Consola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Documents\SENA\FORMACION 2021\4TRIMESTRE\MiprimeraApp\MiprimeraApp.Consola\obj\Debug\net5.0\MiprimeraApp.Consola.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Documents\SENA\FORMACION 2021\4TRIMESTRE\MiprimeraApp\MiprimeraApp.Consola\obj\Debug\net5.0\MiprimeraApp.Consola.AssemblyInfo.cs
+C:\Users\USUARIO\Documents\SENA\FORMACION 2021\4TRIMESTRE\MiprimeraApp\MiprimeraApp.Consola\obj\Debug\net5.0\MiprimeraApp.Consola.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Documents\SENA\FORMACION 2021\4TRIMESTRE\MiprimeraApp\MiprimeraApp.Consola\obj\Debug\net5.0\MiprimeraApp.Consola.dll
+C:\Users\USUARIO\Documents\SENA\FORMACION 2021\4TRIMESTRE\MiprimeraApp\MiprimeraApp.Consola\obj\Debug\net5.0\ref\MiprimeraApp.Consola.dll
+C:\Users\USUARIO\Documents\SENA\FORMACION 2021\4TRIMESTRE\MiprimeraApp\MiprimeraApp.Consola\obj\Debug\net5.0\MiprimeraApp.Consola.pdb
+C:\Users\USUARIO\Documents\SENA\FORMACION 2021\4TRIMESTRE\MiprimeraApp\MiprimeraApp.Consola\obj\Debug\net5.0\MiprimeraApp.Consola.genruntimeconfig.cache
