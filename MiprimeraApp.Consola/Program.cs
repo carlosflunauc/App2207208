@@ -16,11 +16,11 @@ namespace MiprimeraApp.Consola
             //AddPaciente();
             //BuscarPaciente(2);
             //EliminarPaciente(1); 
-            //MostrarPacientes();
+            MostrarPacientes();
             //AddMedico();
             //AsignarMedico();
             //AddSignoVital(); 
-            AsignarSignoVital();
+            //AsignarSignoVital();
             //AsignarPaciente(); ok 
         }
   private static void AddPaciente()
