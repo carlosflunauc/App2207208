@@ -38,7 +38,8 @@ dotnet --version: para revisar la version del sdk de .net
     a) Carpeta Consola
         dotnet add package Microsoft.EntityFrameworkCore.Design
 
-    b) Carpeta Frontend
+    b) Carpeta frontend
+        dotnet add package Microsoft.EntityFrameworkCore.Design
 
     c) Carpeta Persistencia
         dotnet add package Microsoft.EntityFrameworkCore 
@@ -62,3 +63,13 @@ dotnet --version: para revisar la version del sdk de .net
 
     12.2) Si ya existe migraciones
         a) dotnet ef database update --startup-project ..\MiprimeraApp.Consola\
+
+14) Agregar las referencias en Frontend de: Persistencia y Dominio
+
+        dotnet add reference ..\MiprimeraApp.Dominio
+        dotnet add reference ..\MiprimeraApp.Persistencia
+
+15) Crear nueva pagina Razor:
+
+dotnet new page -n “Create”-na MiprimeraApp.frontend.Pages -o .\Pages\
+
