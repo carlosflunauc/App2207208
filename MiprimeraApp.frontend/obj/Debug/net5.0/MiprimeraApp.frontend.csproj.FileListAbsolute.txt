@@ -74,3 +74,4 @@ C:\Users\USUARIO\Documents\SENA\FORMACION 2021\4TRIMESTRE\MiprimeraApp\Miprimera
 C:\Users\USUARIO\Documents\SENA\FORMACION 2021\4TRIMESTRE\MiprimeraApp\MiprimeraApp.frontend\bin\Debug\net5.0\MiprimeraApp.Persistencia.dll
 C:\Users\USUARIO\Documents\SENA\FORMACION 2021\4TRIMESTRE\MiprimeraApp\MiprimeraApp.frontend\bin\Debug\net5.0\MiprimeraApp.Dominio.pdb
 C:\Users\USUARIO\Documents\SENA\FORMACION 2021\4TRIMESTRE\MiprimeraApp\MiprimeraApp.frontend\bin\Debug\net5.0\MiprimeraApp.Persistencia.pdb
+C:\Users\USUARIO\Documents\SENA\FORMACION 2021\4TRIMESTRE\MiprimeraApp\MiprimeraApp.frontend\obj\Debug\net5.0\Razor\Pages\Pacientes\Index1.cshtml.g.cs
