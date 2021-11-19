@@ -71,5 +71,5 @@ dotnet --version: para revisar la version del sdk de .net
 
 15) Crear nueva pagina Razor:
 
-dotnet new page -n “Create”-na MiprimeraApp.frontend.Pages -o .\Pages\
+    dotnet new page -n “Create”-na MiprimeraApp.frontend.Pages -o .\Pages\
 
