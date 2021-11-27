@@ -1,0 +1,52 @@
+Metodos
+
+     IRepositorioPaciente
+        Paciente UpdatePaciente(Paciente paciente);
+        void DeletePaciente(int idPaciente);    
+        Paciente GetPaciente(int idPaciente);
+    
+DeletePaciente
+    
+    public void DeletePaciente(int idPaciente)
+        {
+            var pacienteEncontrado = _appContext.Pacientes.Find(idPaciente);
+            if (pacienteEncontrado == null)
+                return;
+            _appContext.Pacientes.Remove(pacienteEncontrado);
+            _appContext.SaveChanges();
+        }
+        
+GetPaciente
+      
+      public Paciente GetPaciente(int idPaciente)
+        {
+            //return _appContext.Pacientes.Find(idPaciente);
+            
+            var paciente = _appContext.Pacientes
+                       .Where(p => p.Id == idPaciente)
+                       .Include(p => p.Medico)
+                       .Include(p=> p.SignosVitales)
+                       .FirstOrDefault();
+            return paciente;
+        }
+        
+UpdatePaciente
+        
+        public Paciente UpdatePaciente(Paciente paciente)
+        {
+            var pacienteEncontrado = _appContext.Pacientes.Find(paciente.Id);
+            if (pacienteEncontrado != null)
+            {
+                pacienteEncontrado.Nombre = paciente.Nombre;
+                pacienteEncontrado.Apellidos = paciente.Apellidos;
+                pacienteEncontrado.NumeroTelefono = paciente.NumeroTelefono;
+                pacienteEncontrado.Genero = paciente.Genero;
+                pacienteEncontrado.Direccion = paciente.Direccion;
+                pacienteEncontrado.Latitud = paciente.Latitud;
+                pacienteEncontrado.Longitud = paciente.Longitud;
+                pacienteEncontrado.Ciudad = paciente.Ciudad;
+                pacienteEncontrado.FechaNacimiento = paciente.FechaNacimiento;
+                _appContext.SaveChanges();
+            }
+            return pacienteEncontrado;
+        }
